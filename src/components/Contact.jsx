@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { StarsCanvas } from "./canvas"
 
 const Contact = () => {
   const formRef = useRef();
@@ -129,6 +130,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <StarsCanvas />
     </div>
   );
 };
