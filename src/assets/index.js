@@ -8,18 +8,21 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import Cpp from "./tech/Cpp.png";
+import Canva from "./tech/Canva.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import IPFS from "./tech/IPFS.png";
+import MySQL from "./tech/MySQL.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import Blockchain from "./tech/Blockchain.png";
+import Ethereum from "./tech/Ethereum.png"
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import Python from "./tech/Python.jpg";
+import TON from "./tech/TON.png"
+import Solidity from "./tech/Solidity.png"
+import TezosTech from "./tech/Tezos.png"
 
 import Ord from "./company/Ord.png";
 import Tezos from "./company/Tezos.png";
@@ -40,18 +43,21 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  Cpp,
+  Canva,
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
+  IPFS,
+  MySQL,
   reactjs,
-  redux,
+  Blockchain,
   tailwind,
-  typescript,
-  threejs,
+  TON,
+  Solidity,
+  TezosTech,
+  Ethereum,
+  Python,
   Ord,
   Tezos,
   W3E,

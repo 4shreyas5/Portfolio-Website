@@ -4,17 +4,21 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
+    TON,
+    Blockchain,
+    Solidity,
+    MySQL,
+    Cpp,
+    Python,
+    IPFS,
+    Ethereum,
+    Canva,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
+    github,
     Cypher,
     Ord,
     Tezos,
@@ -22,7 +26,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    TezosTech,
   } from "../assets";
   
   export const navLinks = [
@@ -73,45 +77,64 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Blockchain Fundamentals",
+      icon: Blockchain,
+    },
+
+    {
+      name: "Solidity",
+      icon: Solidity,
+    },
+
+    {
+      name: "Ethereum",
+      icon: Ethereum,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Tezos",
+      icon: TezosTech,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "TON",
+      icon: TON,
+    },
+    {
+      name: "IPFS",
+      icon: IPFS,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "GitHub",
+      icon: github,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C++",
+      icon: Cpp,
     },
+    {
+      name: "Python",
+      icon: Python,
+    },
+    {
+      name: "MySQL",
+      icon: MySQL,
+    },
+    {
+      name: "Canva",
+      icon: Canva,
+    },
+
   ];
   
   const experiences = [

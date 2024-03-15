@@ -34,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_mt47cpb", // Your service ID
-        "template_1auax5a", // Your template ID
+        "service_mt47cpb", 
+        "template_1auax5a", 
         {
           from_name: form.name,
           to_name: "Shreyas",
@@ -43,7 +43,7 @@ const Contact = () => {
           to_email: "shreyassingh621@gmail.com",
           message: form.message,
         },
-        "pGV6nd1pl30GFtuBX" // Your public key
+        "pGV6nd1pl30GFtuBX"
       )
       .then(
         () => {
@@ -115,7 +115,7 @@ const Contact = () => {
       <motion.div variants={slideIn("right", "tween", 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
         <EarthCanvas />
       </motion.div>
-      {/* <StarsCanvas /> */}
+      <StarsCanvas /> 
     </div>
   );
 };
