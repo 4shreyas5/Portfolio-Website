@@ -7,7 +7,7 @@ import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
-const TechCard = ({ index, title, icon }) => (
+const TechCard = ({ index, name, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -28,7 +28,7 @@ const TechCard = ({ index, title, icon }) => (
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
+          {name}
         </h3>
       </div>
     </motion.div>

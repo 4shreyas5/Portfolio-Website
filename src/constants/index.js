@@ -65,35 +65,29 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+      name: "React JS",
+      icon: reactjs,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
     },
     {
       name: "Blockchain Fundamentals",
       icon: Blockchain,
     },
-
     {
       name: "Solidity",
       icon: Solidity,
     },
-
     {
       name: "Ethereum",
       icon: Ethereum,
