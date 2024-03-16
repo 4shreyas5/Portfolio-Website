@@ -29,9 +29,9 @@ import Tezos from "./company/Tezos.png";
 import W3E from "./company/W3E.png";
 import Cypher from "./company/Cypher.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Ordinateur from "./Ordinateur.png";
+import NPGMS from "./NPGMS.png";
+import Drive from "./Drive.png";
 
 export {
   logo,
@@ -62,7 +62,7 @@ export {
   Tezos,
   W3E,
   Cypher,
-  carrent,
-  jobit,
-  tripguide,
+  Ordinateur,
+  NPGMS,
+  Drive,
 };

@@ -23,9 +23,9 @@ import {
     Ord,
     Tezos,
     W3E,
-    carrent,
-    jobit,
-    tripguide,
+    Ordinateur,
+    NPGMS,
+    Drive,
     TezosTech,
   } from "../assets";
   
@@ -105,7 +105,7 @@ import {
       icon: IPFS,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
@@ -215,16 +215,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ordinateur Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " It is the official website of Ordinateur: The Computer Science Society of Hansraj College containing information about the Society and Department along with a section for students to access academic resources.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "materialtailwind",
           color: "green-text-gradient",
         },
         {
@@ -232,50 +232,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Ordinateur,
+      source_code_link: "https://ordinateurhrc.online/",
     },
     {
-      name: "Job IT",
+      name: "NPGMS",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Nepal Public Grievance Management System made for Government of Nepal under KUHackFest is a platform to register grievance with the immense benefits of Blockchain.",
+      tags: [
+        {
+          name: "react+vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "smartpy",
+          color: "green-text-gradient",
+        },
+        {
+          name: "taquito.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: NPGMS,
+      source_code_link: "https://github.com/jyotendra02/Nepal-Public-Grievance-Management-System",
+    },
+    {
+      name: "Drive 3.0",
+      description:
+        "Drive 3.0 is a cutting-edge file sharing platform operating on Web 3.0 principles, leveraging Polygon's zK-EVM. It empowers users to securely upload and distribute files via IPFS and Pinata.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ipfs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "solidity",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Drive,
+      source_code_link: "https://github.com/akanshaBharti/0xCreators",
     },
   ];
   
