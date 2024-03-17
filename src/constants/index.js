@@ -189,28 +189,12 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+        "Shreyas is an outstanding tech leader. His contributions at Tezos India have been invaluable, and his passion for innovation is truly inspiring. As a leader, he fosters collaboration, encourages growth, and sets a high standard for excellence.",
+      name: "Tauqeer",
+      designation: "DevrRel",
+      company: "Tezos India",
+      image: "https://media.licdn.com/dms/image/D4D03AQH48wx-QWEmZQ/profile-displayphoto-shrink_800_800/0/1682530646761?e=1716422400&v=beta&t=tuqvxw4dQ_L4_YbT-na12s2YoBlVYViI8TWHeyN2frk",
+    }
   ];
   
   const projects = [
